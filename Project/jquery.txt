@@ -1,0 +1,42 @@
+ .event(function(),{ })
+To change an attribute :
+in javascript we used  ==>       .setAttribute("x","y")
+in jquery we use           ==>        .attr("x","y");
+password input :
+<form>
+  User name:<br>
+  <input type="text" name="username"><br>
+  User password:<br>
+  <input type="password" name="psw">
+</form>
+input type color :
+<form >
+  Select your favorite color:
+  <input type="color" name="favcolor" value=" #000099">
+  <input type="submit">
+</form>
+ Date input :
+ <form>
+  Birthday:
+  <input type="date" name="bday">
+</form>
+Email input: 
+<form>
+  E-mail:
+  <input type="email" name="email">
+  <input type="submit">
+</form>
+placeholder attribute :
+<input type="text" name="fname" placeholder="First name">
+Username: <input type="text" name="usrname" required>
+To change the value of a certain HTML element, we would use :
+ in javascript           ==>  .value = y
+ in jquery we use    ==>  .val("y")
+ $("h1").html ("no don't worry i'm fine")
+    setTimeout($("#ahaya,3000").css("background-color"));
+    $(document).ready(function(){
+
+        $('#ahaya').css("background-color","green")
+    
+    })
+
